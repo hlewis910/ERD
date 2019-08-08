@@ -3,7 +3,7 @@ const db = require('../db')
 
 const Product = db.define('Product', {
   barcode: {
-    type: Sequelize.ENUM,
+    type: Sequelize.INTEGER,
     unique: true
   },
   name: {
